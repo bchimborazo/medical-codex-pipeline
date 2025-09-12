@@ -1,7 +1,4 @@
-# Ignore files in input/output folders
-input/
-output/csv
-
+output/csv/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
