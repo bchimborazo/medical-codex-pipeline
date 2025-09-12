@@ -56,7 +56,7 @@ are empty strings
 no header row and validates/corrects rows with inconsistent column counts (truncates extras)
 
 ### SNOMED
-- I liltered the dataset to include only active records by using **processed_df = df.filter(pl.col('active') == 1)**
+- I limited the dataset to include only active records by using **processed_df = df.filter(pl.col('active') == 1)**
 - Used lossy UTF-8 for character encoding 
 - Handled malformed records with truncate-ragged_lines option
 - **.head(100_000)** limits dataset to the first 100,000 rows for better output size
