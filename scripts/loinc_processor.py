@@ -2,6 +2,7 @@ import pandas as pd
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv('input/Loinc.csv')
+
 # Display basic information about the DataFrame to understand its structure
 df.info()
 

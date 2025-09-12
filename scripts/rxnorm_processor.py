@@ -14,10 +14,10 @@ columns = [
 # No header in the file, so we set has_header=False
 df = pl.read_csv(
     file_path,
-    separator='|',
+    separator='|', # Delimiter is pipe '|'
     has_header=False,
-    new_columns=columns,
-    truncate_ragged_lines=True
+    new_columns=columns, 
+    truncate_ragged_lines=True 
 )
 # Create new DataFrame with the specified columns
 df_final = df.select([

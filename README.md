@@ -1,5 +1,6 @@
 # HHA 507: medical-codex-pipeline
 Goal: Create Python scripts that can process the medical codexes listed below into standardized CSV format.
+Please refer to assignment instructions here: https://github.com/hantswilliams/HHA-507-2025/blob/main/assignments/assignment1_medicalcodexes.md
 
 ## Targeted Medical Codexes
 | Codex | Focus | Links |

@@ -9,7 +9,8 @@ colspecs = [(0, 11), (11, 90)]
 # Defining column names
 column_names = ["code", "description"]
 
-# Read the fixed-width formatted file and create a dataframe
+# Read the file into a DataFrame
+# The file appears to be fixed-width formatted, so we'll use read_fwf
 df = pd.read_fwf(file_path, colspecs=colspecs, names=column_names)
 
 # Clean the 'code' and 'description' columns by removing leading/trailing whitespace
