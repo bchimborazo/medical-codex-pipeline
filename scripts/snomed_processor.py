@@ -35,7 +35,7 @@ processed_df = (
     # Add timestamp column
     pl.lit("2025-09-11").alias("last_updated")
 ])
-.head(100_000) # limit to first 100,000 rows to be able to process to GitHub
+.head(100_000) # limit to first 100,000 rows to reduce file size for better output
 )
 # Create output directory if it doesn't exist
 output_dir = Path('output/csv')
